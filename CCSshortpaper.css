@@ -1,0 +1,157 @@
+
+body {
+  background-color: #ebebeb;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Container for the video */
+.video-container {
+    width: 640px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for the video element */
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #444;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+/* Fallback message styling */
+.fallback-message {
+    color: #ff0000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Image container styling */
+.image-container {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+/* Caption styling for images */
+.image-caption {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+
+/* Header Styles */
+header {
+  padding: 20px;
+}
+
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.nav {
+  text-align: center;  
+ margin-bottom: 20px;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc; 
+}
+
+.nav a i {
+  margin-right: 8px; 
+}
+
+.nav a:hover {
+  text-decoration: underline; 
+}
+
+main {
+  padding: 20px;
+  margin: 0;
+  padding-left: 40px; 
+  padding-right: 40px; 
+}
+
+
+/* Footer Styles */
+.footer {
+  text-align: left; 
+  padding: 0px;
+  background-color: #ffffcc; 
+  color: #000; 
+  margin-top: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+th {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #ffffcc;
+}
+
+/* Flexbox container for side-by-side images */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between images */
+    margin: 20px auto;
+    max-width: 1000px; /* Adjust as needed */
+}
+
+/* Styling for images in a row */
+.image-row img {
+    flex: 1; /* Distribute space equally */
+    max-width: calc(50% - 5px); /* Adjust for 2 images side by side */
+}
